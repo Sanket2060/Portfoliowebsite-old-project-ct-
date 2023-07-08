@@ -1,0 +1,301 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+    
+}
+body{
+    background-color:#086788;
+    height: 400vh;
+    font-family: 'Tilt Warp', cursive;
+    
+}
+.intro{
+    background-color:#7765E3;
+    padding-bottom: 25px;
+    font-family: 'Tilt Warp', cursive;
+    
+}
+.mainnavbar{
+    background-color: blue;
+    position:fixed;
+    top: 0px;
+    width: 100vw;
+    height: 5vh;
+}
+nav{
+    padding-top: 35px;
+font-family: 'Tilt Warp', cursive;
+font-weight: 650;
+font-size: large;
+}
+.sanket{
+    margin-left: 219px;
+}
+.home{
+    margin-left: 228px;
+}
+.pl75{
+    margin-left: 75px;
+}
+.letstalk{
+    border: 2px double red;
+    padding: 4px 15px;
+}
+.socialmedianav{
+
+    margin-top: 225px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 400px;
+    position: fixed;
+    top: 0px;
+}
+section{
+   position:absolute;
+    left: 185px;
+    top: 192px;
+}
+.vl {
+    border-left: 2px solid lightgrey;
+    height: 125px;
+    margin-left: 15px;    
+}
+.hithere{
+    font-size: 30px;
+}
+.name{
+    font-size: 60px;
+}
+.programmer{
+    font-size: 50px;
+    
+}
+.fontweight800{
+    font-weight: 800;
+}
+.coloredtext{
+    color: pink;
+}
+.button{
+     background-color: red;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+.giphy-embed{
+    margin-left: 820px;
+    margin-top: 125px;
+}
+.specialtext{
+    font-size: 35px;
+}
+.contactme{
+    margin-top: 35px;
+    width: 150px;
+    height: 40px;
+    border: 5px solid #7765E3;
+    
+    border-radius: 3px ;
+}
+.email{
+   margin-left: 1299px;
+   margin-bottom: 255px;
+    transform: rotate(90deg);
+}
+
+
+
+/* About me section */
+.aboutme{
+    font-family: 'Tilt Neon', cursive;
+}
+.textonly{
+    width: 45px;
+}
+.textaboutme{
+    display: inline;
+     position: absolute;
+     left: 765px;
+     top: 905px;
+    font-size: 58px;
+   
+    
+}
+.textmydescription{
+    display: inline;
+     position: absolute;
+     left: 765px;
+     top: 984px;
+    font-size: 20px;
+    width: 555px;
+}
+    
+.pp{
+    margin-left: 133px;
+    margin-top: 25px;
+}
+.aboutmenav{
+    position: absolute;
+    display: flex;
+    justify-content: left;
+    top: 1125px;
+    left: 766px;
+}
+.p{
+    padding-left: 39px;
+}
+.textaligncenter{
+    text-align: center;
+}
+/* aboutme part ends */
+
+
+/* portfolio part */
+.portfolio{
+    font-family: 'Tilt Neon', cursive;
+   
+}
+.portfolionav{
+    width: 616px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top:5px;
+    left: 371px;
+    
+    font-size: 26px;
+  
+   
+}
+.portfoliotext{
+    
+    margin-top: 110px;
+    font-size: 58px;
+    font-weight: 500;
+}
+.normaltext{
+    font-size: 26px;
+}
+.lines{
+    display: flex;
+    margin-left: 335px;
+
+}
+.line{
+    border-top: 5px solid black;
+    padding: 86px;
+  
+}
+.box{
+    border: 1px solid black;
+}
+.mywork{
+   position: relative;
+   left: 333px;
+   width: 62vw;
+   height: 59vh;
+ top: -111px;
+ display: grid;
+ grid-template-rows: auto auto;
+ grid-template-columns: auto auto;
+ row-gap: 3vw;
+ column-gap: 3vw;
+}
+.viewmorebutton{
+    width: 13vw;
+    height: 5vh;
+    background-color: red;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    position: relative;
+    left: 50vw;
+    top: -5vh;
+}
+.contactmeform{
+    background-color:#7765E3;
+    /* border:1px solid black; */
+    height: 175vh;
+  
+}
+.contactmetext{
+    margin-left: 160px;
+    padding-top: 50px; 
+    padding-top: 66px;
+    font-size: 58px;
+    font-weight: 500;
+}
+.sendmeanote{
+    font-size: 26px;
+    margin-left: 160px;
+    padding-top: 21px; 
+}
+/* .contactform{
+ 
+    width: 58px;
+   
+} */
+.enterreview{
+    margin-left: 160px;
+    width: 550px;
+    height: 60px;
+    background-color: blue;
+    margin-bottom: 45px;
+}
+
+.mobile{
+    font-size: 21px;
+    width: 375px;
+    height: 80px;
+    border: 1px solid black;
+    position: relative;
+    top: -361px;
+    left: 828px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.emailcontactform{
+    font-size: 21px;
+    width: 375px;
+    height: 117px;
+    border: 1px solid black;
+    position: relative;
+    top: -295px;
+    left: 828px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.sendbutton{
+    width: 130px;
+    height: 56px;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+}
+.sendbuttondiv{
+    position: relative;
+    top: -25px;
+    left: 158px;
+   
+}
+
+
+/* goto's */
+.gotoaboutme{
+    margin-bottom: 25px;
+}
+
+
+/* hover over */
+.hoverdiv:hover {
+    background-color: grey;
+  }
